@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "clean": "style-dictionary clean",
-    "build": "npx token-transformer tokens.json tokens/global.json core,semantic,component --expandTypography=true && npm run clean && style-dictionary build"
+    "build": "npx token-transformer tokens.json tokens/global.json component,semantic,core --expandTypography=true && npm run clean && style-dictionary build"
   },
   "dependencies": {
     "node-fetch": "^3.2.0",
