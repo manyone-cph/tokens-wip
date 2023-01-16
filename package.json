@@ -4,7 +4,10 @@
   "private": true,
   "scripts": {
     "clean": "style-dictionary clean",
-    "build": "npx token-transformer tokens.json tokens/global.json component,semantic,core --expandTypography=true && npm run clean && style-dictionary build"
+    "build-core": "npx token-transformer tokens.json tokens/core.json shared/core,shared/semantic --expandTypography=true && npm run clean && style-dictionary build",
+    "build-theme-light": "npx token-transformer tokens.json tokens/theme-light.json shared/core,shared/semantic,theme/light/semantic,theme/light/component --expandTypography=true && npm run clean && style-dictionary build -c config.theme.js",
+    "build-theme-dark": "npx token-transformer tokens.json tokens/theme-dark.json shared/core,shared/semantic,theme/dark/semantic,theme/dark/component --expandTypography=true && npm run clean && style-dictionary build -c config.theme.js",
+    "build": "npm run build-core"
   },
   "dependencies": {
     "node-fetch": "^3.2.0",
