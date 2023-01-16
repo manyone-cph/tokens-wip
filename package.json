@@ -1,0 +1,16 @@
+{
+  "name": "dsa-tokens",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "clean": "style-dictionary clean",
+    "build": "npx token-transformer tokens.json tokens/global.json global,color,typography,layout --expandTypography=true && npm run clean && style-dictionary build"
+  },
+  "dependencies": {
+    "node-fetch": "^3.2.0",
+    "token-transformer": "^0.0.17"
+  },
+  "devDependencies": {
+    "style-dictionary": "^3.7.0"
+  }
+}
