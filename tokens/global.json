@@ -341,18 +341,18 @@
       },
       "grey": {
         "100": {
+          "value": "#f8f8f8",
+          "type": "color"
+        },
+        "200": {
           "value": "#EBEBEB",
           "type": "color",
           "description": "Inactive GUI\n"
         },
-        "200": {
+        "300": {
           "value": "#A7A7A7",
           "type": "color",
           "description": "Inactive GUI\n"
-        },
-        "300": {
-          "value": "#f8f8f8",
-          "type": "color"
         }
       },
       "transparent": {
