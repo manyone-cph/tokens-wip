@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Mon, 16 Jan 2023 13:48:08 GMT
+ * Generated on Mon, 16 Jan 2023 13:50:10 GMT
  */
 
 $component-colors-btn-primary-bg: #000000 !default;
@@ -10,48 +10,6 @@ $component-colors-btn-primary-txt: #ffffff !default;
 $component-colors-btn-secondary-bg: transparent !default;
 $component-colors-btn-secondary-border: #000000 !default;
 $component-colors-btn-secondary-txt: #000000 !default;
-$component-typography-desktop-btn-0: { !default;
-$component-typography-desktop-btn-1: s !default;
-$component-typography-desktop-btn-2: e !default;
-$component-typography-desktop-btn-3: m !default;
-$component-typography-desktop-btn-4: a !default;
-$component-typography-desktop-btn-5: n !default;
-$component-typography-desktop-btn-6: t !default;
-$component-typography-desktop-btn-7: i !default;
-$component-typography-desktop-btn-8: c !default;
-$component-typography-desktop-btn-9: . !default;
-$component-typography-desktop-btn-10: t !default;
-$component-typography-desktop-btn-11: y !default;
-$component-typography-desktop-btn-12: p !default;
-$component-typography-desktop-btn-13: o !default;
-$component-typography-desktop-btn-14: g !default;
-$component-typography-desktop-btn-15: r !default;
-$component-typography-desktop-btn-16: a !default;
-$component-typography-desktop-btn-17: p !default;
-$component-typography-desktop-btn-18: h !default;
-$component-typography-desktop-btn-19: y !default;
-$component-typography-desktop-btn-20: . !default;
-$component-typography-desktop-btn-21: d !default;
-$component-typography-desktop-btn-22: e !default;
-$component-typography-desktop-btn-23: s !default;
-$component-typography-desktop-btn-24: k !default;
-$component-typography-desktop-btn-25: t !default;
-$component-typography-desktop-btn-26: o !default;
-$component-typography-desktop-btn-27: p !default;
-$component-typography-desktop-btn-28: . !default;
-$component-typography-desktop-btn-29: b !default;
-$component-typography-desktop-btn-30: o !default;
-$component-typography-desktop-btn-31: d !default;
-$component-typography-desktop-btn-32: y !default;
-$component-typography-desktop-btn-33: - !default;
-$component-typography-desktop-btn-34: r !default;
-$component-typography-desktop-btn-35: e !default;
-$component-typography-desktop-btn-36: g !default;
-$component-typography-desktop-btn-37: u !default;
-$component-typography-desktop-btn-38: l !default;
-$component-typography-desktop-btn-39: a !default;
-$component-typography-desktop-btn-40: r !default;
-$component-typography-desktop-btn-41: } !default;
 $semantic-colors-action-primary: #000000 !default;
 $semantic-colors-txt-primary: #000000 !default;
 $semantic-colors-txt-secondary: #A7A7A7 !default;
@@ -150,54 +108,6 @@ $tokens: (
           'bg': $component-colors-btn-secondary-bg,
           'border': $component-colors-btn-secondary-border,
           'txt': $component-colors-btn-secondary-txt
-        )
-      )
-    ),
-    'typography': (
-      'desktop': (
-        'btn': (
-          '0': $component-typography-desktop-btn-0,
-          '1': $component-typography-desktop-btn-1,
-          '2': $component-typography-desktop-btn-2,
-          '3': $component-typography-desktop-btn-3,
-          '4': $component-typography-desktop-btn-4,
-          '5': $component-typography-desktop-btn-5,
-          '6': $component-typography-desktop-btn-6,
-          '7': $component-typography-desktop-btn-7,
-          '8': $component-typography-desktop-btn-8,
-          '9': $component-typography-desktop-btn-9,
-          '10': $component-typography-desktop-btn-10,
-          '11': $component-typography-desktop-btn-11,
-          '12': $component-typography-desktop-btn-12,
-          '13': $component-typography-desktop-btn-13,
-          '14': $component-typography-desktop-btn-14,
-          '15': $component-typography-desktop-btn-15,
-          '16': $component-typography-desktop-btn-16,
-          '17': $component-typography-desktop-btn-17,
-          '18': $component-typography-desktop-btn-18,
-          '19': $component-typography-desktop-btn-19,
-          '20': $component-typography-desktop-btn-20,
-          '21': $component-typography-desktop-btn-21,
-          '22': $component-typography-desktop-btn-22,
-          '23': $component-typography-desktop-btn-23,
-          '24': $component-typography-desktop-btn-24,
-          '25': $component-typography-desktop-btn-25,
-          '26': $component-typography-desktop-btn-26,
-          '27': $component-typography-desktop-btn-27,
-          '28': $component-typography-desktop-btn-28,
-          '29': $component-typography-desktop-btn-29,
-          '30': $component-typography-desktop-btn-30,
-          '31': $component-typography-desktop-btn-31,
-          '32': $component-typography-desktop-btn-32,
-          '33': $component-typography-desktop-btn-33,
-          '34': $component-typography-desktop-btn-34,
-          '35': $component-typography-desktop-btn-35,
-          '36': $component-typography-desktop-btn-36,
-          '37': $component-typography-desktop-btn-37,
-          '38': $component-typography-desktop-btn-38,
-          '39': $component-typography-desktop-btn-39,
-          '40': $component-typography-desktop-btn-40,
-          '41': $component-typography-desktop-btn-41
         )
       )
     )
