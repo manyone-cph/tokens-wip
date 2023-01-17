@@ -1,1 +1,0 @@
-# SCSS generated from Figma

@@ -1,4 +1,47 @@
 {
+  "composition": {
+    "page": {
+      "value": {
+        "width": 1920,
+        "spacing": 200,
+        "itemSpacing": 50,
+        "fill": "{component.colors.page.primary}"
+      },
+      "type": "composition",
+      "failedToResolve": true
+    },
+    "section": {
+      "value": {
+        "spacing": 100
+      },
+      "type": "composition"
+    },
+    "card-approve": {
+      "value": {
+        "spacing": 50,
+        "borderColor": "#000000",
+        "borderRadius": 5,
+        "fill": "#000000"
+      },
+      "type": "composition"
+    },
+    "card": {
+      "value": {
+        "itemSpacing": 20,
+        "spacing": 50,
+        "fill": "#000000"
+      },
+      "type": "composition"
+    },
+    "button": {
+      "value": {
+        "spacing": 20,
+        "fill": "#000000",
+        "fontFamilies": "Roboto"
+      },
+      "type": "composition"
+    }
+  },
   "semantic": {
     "fontFamilies": {
       "primary": {
@@ -88,144 +131,184 @@
       "desktop": {
         "body-regular": {
           "fontFamily": {
-            "value": "Roboto"
+            "value": "Roboto",
+            "type": "fontFamilies"
           },
           "fontSize": {
-            "value": 16
+            "value": 16,
+            "type": "fontSizes"
           },
           "fontWeight": {
-            "value": "Regular"
+            "value": "Regular",
+            "type": "fontWeights"
           },
           "lineHeight": {
-            "value": "140%"
+            "value": "140%",
+            "type": "lineHeight"
           }
         },
         "body-bold": {
           "fontFamily": {
-            "value": "Roboto"
+            "value": "Roboto",
+            "type": "fontFamilies"
           },
           "fontSize": {
-            "value": 16
+            "value": 16,
+            "type": "fontSizes"
           },
           "fontWeight": {
-            "value": "Bold"
+            "value": "Bold",
+            "type": "fontWeights"
           },
           "lineHeight": {
-            "value": "140%"
+            "value": "140%",
+            "type": "lineHeight"
           }
         },
         "h1-bold": {
           "fontFamily": {
-            "value": "Roboto"
+            "value": "Roboto",
+            "type": "fontFamilies"
           },
           "fontSize": {
-            "value": 61.036
+            "value": 61.036,
+            "type": "fontSizes"
           },
           "fontWeight": {
-            "value": "Bold"
+            "value": "Bold",
+            "type": "fontWeights"
           },
           "lineHeight": {
-            "value": "110%"
+            "value": "110%",
+            "type": "lineHeight"
           }
         },
         "h1-regular": {
           "fontFamily": {
-            "value": "Roboto"
+            "value": "Roboto",
+            "type": "fontFamilies"
           },
           "fontSize": {
-            "value": 61.036
+            "value": 61.036,
+            "type": "fontSizes"
           },
           "fontWeight": {
-            "value": "Regular"
+            "value": "Regular",
+            "type": "fontWeights"
           },
           "lineHeight": {
-            "value": "110%"
+            "value": "110%",
+            "type": "lineHeight"
           }
         },
         "h3-bold": {
           "fontFamily": {
-            "value": "Roboto"
+            "value": "Roboto",
+            "type": "fontFamilies"
           },
           "fontSize": {
-            "value": 39.063
+            "value": 39.063,
+            "type": "fontSizes"
           },
           "fontWeight": {
-            "value": "Bold"
+            "value": "Bold",
+            "type": "fontWeights"
           },
           "lineHeight": {
-            "value": "110%"
+            "value": "110%",
+            "type": "lineHeight"
           }
         }
       },
       "mobile": {
         "body-regular": {
           "fontFamily": {
-            "value": "Roboto"
+            "value": "Roboto",
+            "type": "fontFamilies"
           },
           "fontSize": {
-            "value": 16
+            "value": 16,
+            "type": "fontSizes"
           },
           "fontWeight": {
-            "value": "Regular"
+            "value": "Regular",
+            "type": "fontWeights"
           },
           "lineHeight": {
-            "value": "140%"
+            "value": "140%",
+            "type": "lineHeight"
           }
         },
         "body-bold": {
           "fontFamily": {
-            "value": "Roboto"
+            "value": "Roboto",
+            "type": "fontFamilies"
           },
           "fontSize": {
-            "value": 16
+            "value": 16,
+            "type": "fontSizes"
           },
           "fontWeight": {
-            "value": "Bold"
+            "value": "Bold",
+            "type": "fontWeights"
           },
           "lineHeight": {
-            "value": "140%"
+            "value": "140%",
+            "type": "lineHeight"
           }
         },
         "h1-bold": {
           "fontFamily": {
-            "value": "Roboto"
+            "value": "Roboto",
+            "type": "fontFamilies"
           },
           "fontSize": {
-            "value": 28.346
+            "value": 28.346,
+            "type": "fontSizes"
           },
           "fontWeight": {
-            "value": "Bold"
+            "value": "Bold",
+            "type": "fontWeights"
           },
           "lineHeight": {
-            "value": "110%"
+            "value": "110%",
+            "type": "lineHeight"
           }
         },
         "h1-regular": {
           "fontFamily": {
-            "value": "Roboto"
+            "value": "Roboto",
+            "type": "fontFamilies"
           },
           "fontSize": {
-            "value": 28.346
+            "value": 28.346,
+            "type": "fontSizes"
           },
           "fontWeight": {
-            "value": "Regular"
+            "value": "Regular",
+            "type": "fontWeights"
           },
           "lineHeight": {
-            "value": "110%"
+            "value": "110%",
+            "type": "lineHeight"
           }
         },
         "h3-bold": {
           "fontFamily": {
-            "value": "Roboto"
+            "value": "Roboto",
+            "type": "fontFamilies"
           },
           "fontSize": {
-            "value": 23.426
+            "value": 23.426,
+            "type": "fontSizes"
           },
           "fontWeight": {
-            "value": "Bold"
+            "value": "Bold",
+            "type": "fontWeights"
           },
           "lineHeight": {
-            "value": "110%"
+            "value": "110%",
+            "type": "lineHeight"
           }
         }
       }
@@ -406,6 +489,14 @@
       "140": {
         "value": "140%",
         "type": "lineHeight"
+      }
+    }
+  },
+  "colors": {
+    "oticon-red": {
+      "500": {
+        "value": "#0f14b1",
+        "type": "color"
       }
     }
   }
