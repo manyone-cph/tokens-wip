@@ -4,18 +4,21 @@
   "private": true,
   "scripts": {
     "clean": "style-dictionary clean",
-    "build-core": "npx token-transformer tokens.json tokens/core.json shared/core,shared/semantic --expandTypography=true && npm run clean && style-dictionary build",
-    "build-theme-light": "npx token-transformer tokens.json tokens/theme-light.json shared/core,shared/semantic,theme/light/semantic,theme/light/component --expandTypography=true && npm run clean && style-dictionary build -c config.theme.js",
-    "build-theme-dark": "npx token-transformer tokens.json tokens/theme-dark.json shared/core,shared/semantic,theme/dark/semantic,theme/dark/component --expandTypography=true && npm run clean && style-dictionary build -c config.theme.js",
-    "buildshared": "npx token-transformer tokens.json tokens/core.json shared/core,shared/semantic,shared/compositions --expandTypography=true && npm run clean && node build.js",
-    "buildthemea": "npm run build-core && npm run build-theme-light && npm run build-theme-dark && npm run buildshared",
-    "buildthemeb": "npm run build-core && npm run build-theme-light && npm run build-theme-dark && npm run buildshared"
+    "shared": "npx token-transformer tokens.json tokens/all.json shared/core,shared/semantic,shared/composition/atoms,shared/composition/molecules,shared/composition/layout --expandTypography=true && npm run clean && node build-shared.js",
+    "theme": "npx token-transformer tokens.json tokens/theme.json shared/core,shared/semantic,shared/composition/atoms,shared/composition/molecules,shared/composition/layout,theme/a/semantic,theme/a/component,theme/a/core  shared/core,shared/semantic,shared/composition/atoms,shared/composition/molecules,shared/composition/layout --expandTypography=true  && npm run clean && node build-shared.js",
+    "test": "npx token-transformer tokens.json tokens/all.json theme/a/core,theme/a/semantic,shared/core,shared/semantic,shared/composition/atoms,shared/composition/molecules,shared/composition/layout,tokens/theme/a,theme/a/core,theme/a/semantic,theme/a/component --expandTypography=true && npm run clean && node build-shared.js",
+    "theme:a": "npx token-transformer tokens.json tokens/theme/a.json theme/a/core,theme/a/semantic,theme/a/component  --expandTypography=true && npm run clean && node build-theme-a.js",
+    "build": "npm run shared",
+    "start": "dotenv cross-var npx token-transformer tokens.json tokens/all.json $SET_SHARED --expandTypography=true"
   },
   "dependencies": {
+    "cross-var": "^1.1.0",
+    "dotenv": "^16.0.3",
+    "dotenv-cli": "^6.0.0",
     "node-fetch": "^3.2.0",
-    "token-transformer": "^0.0.17"
+    "token-transformer": "^0.0.29"
   },
   "devDependencies": {
-    "style-dictionary": "^3.7.0"
+    "style-dictionary": "^3.7.2"
   }
 }

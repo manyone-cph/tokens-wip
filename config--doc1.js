@@ -152,7 +152,7 @@ module.exports = {
         "size/toREM",
         "shadow/shorthand",
       ],
-      buildPath: "./dist/",
+      buildPath: "./figma/",
       files: [
         {
           destination: "scss/core/_variables.scss",
