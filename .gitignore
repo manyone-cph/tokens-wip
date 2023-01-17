@@ -1,7 +1,9 @@
 .DS_Store
 node_modules
+
+# auto generated files
 tokens/**/*.json
-scss/**/*.scss
+dist
 
 # local env files
 .env.local
