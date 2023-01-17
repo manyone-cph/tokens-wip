@@ -408,5 +408,13 @@
         "type": "lineHeight"
       }
     }
+  },
+  "colors": {
+    "oticon-red": {
+      "500": {
+        "value": "#0f14b1",
+        "type": "color"
+      }
+    }
   }
 }
