@@ -1,6 +1,7 @@
 .DS_Store
 node_modules
-figma/scss/**/*.scss
+tokens/**/*.json
+scss/**/*.scss
 
 # local env files
 .env.local

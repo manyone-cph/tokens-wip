@@ -3,11 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "clean": "style-dictionary clean",
+    "clean:token-transformer": "npx rimraf tokens",
+    "clean:style-dictionary": "style-dictionary clean",
+    "clean": "npm run clean:token-transformer && npm run clean:style-dictionary",
     "shared_old": "npx token-transformer tokens.json tokens/all.json shared/core,shared/semantic,shared/composition/atoms,shared/composition/molecules,shared/composition/layout --expandTypography=true && npm run clean && node build-shared.js",
     "shared": "npx token-transformer tokens.json tokens/all.json shared/core,shared/semantic,shared/composition/atoms,shared/composition/molecules,shared/composition/layout --expandTypography=true",
-    "theme:a": "npx token-transformer tokens.json tokens/theme.json shared/core,shared/semantic,shared/composition/atoms,shared/composition/molecules,shared/composition/layout,theme/a/core,theme/a/semantic,theme/a/component  shared/core,shared/semantic,shared/composition/atoms,shared/composition/molecules,shared/composition/layout --expandTypography=true",
-    "build": "npm run clean && npm run shared"
+    "theme:a": "npx token-transformer tokens.json tokens/theme/a.json shared/core,shared/semantic,shared/composition/atoms,shared/composition/molecules,shared/composition/layout,theme/a/core,theme/a/semantic,theme/a/component  shared/core,shared/semantic,shared/composition/atoms,shared/composition/molecules,shared/composition/layout --expandTypography=true",
+    "theme:b": "npx token-transformer tokens.json tokens/theme/b.json shared/core,shared/semantic,shared/composition/atoms,shared/composition/molecules,shared/composition/layout,theme/b/core,theme/b/semantic,theme/b/component  shared/core,shared/semantic,shared/composition/atoms,shared/composition/molecules,shared/composition/layout --expandTypography=true",
+    "build": "npm run clean && npm run shared && npm run theme:a && npm run theme:b"
   },
   "dependencies": {
     "node-fetch": "^3.2.0",
