@@ -1,0 +1,21 @@
+{
+  "composition": {
+    "card-approve": {
+      "value": {
+        "spacing": "50",
+        "borderColor": "{core.color.black.100}",
+        "borderRadius": "5",
+        "fill": "{core.color.black.100}"
+      },
+      "type": "composition"
+    },
+    "card": {
+      "value": {
+        "itemSpacing": "20",
+        "spacing": "50",
+        "fill": "{core.color.black.100}"
+      },
+      "type": "composition"
+    }
+  }
+}

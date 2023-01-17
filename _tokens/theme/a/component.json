@@ -1,0 +1,44 @@
+{
+  "component": {
+    "color": {
+      "page": {
+        "primary": {
+          "value": "{core.color.white.100}",
+          "type": "color"
+        }
+      },
+      "card": {
+        "base": {
+          "primary": {
+            "value": "{core.color.cobber.100}",
+            "type": "color"
+          }
+        },
+        "approve": {
+          "primary": {
+            "value": "{core.color.green.100}",
+            "type": "color"
+          }
+        }
+      },
+      "btn": {
+        "primary": {
+          "bg": {
+            "value": "{semantic.color.action.primary}",
+            "type": "color"
+          },
+          "txt": {
+            "value": "{semantic.color.txt.inverted}",
+            "type": "color"
+          }
+        },
+        "secondary": {
+          "bg": {
+            "value": "{core.color.transparent.100}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}

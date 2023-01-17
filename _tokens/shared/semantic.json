@@ -1,0 +1,184 @@
+{
+  "semantic": {
+    "fontFamilies": {
+      "primary": {
+        "value": "{core.fontFamilies.sans-serif-2}",
+        "type": "fontFamilies"
+      }
+    },
+    "fontSizes": {
+      "desktop": {
+        "body-xs": {
+          "value": "{core.fontSizes.base-desktop} * 0.65",
+          "type": "fontSizes"
+        },
+        "body-sm": {
+          "value": "{core.fontSizes.base-desktop} * 0.85",
+          "type": "fontSizes"
+        },
+        "body": {
+          "value": "{core.fontSizes.base-desktop}",
+          "type": "fontSizes"
+        },
+        "h6": {
+          "value": "{semantic.fontSizes.desktop.body} * {core.fontSizes.ratio-desktop}",
+          "type": "fontSizes"
+        },
+        "h5": {
+          "value": "{semantic.fontSizes.desktop.h6} * {core.fontSizes.ratio-desktop}",
+          "type": "fontSizes"
+        },
+        "h4": {
+          "value": "{semantic.fontSizes.desktop.h5} * {core.fontSizes.ratio-desktop}",
+          "type": "fontSizes"
+        },
+        "h3": {
+          "value": "{semantic.fontSizes.desktop.h4} * {core.fontSizes.ratio-desktop}",
+          "type": "fontSizes"
+        },
+        "h2": {
+          "value": "{semantic.fontSizes.desktop.h3} * {core.fontSizes.ratio-desktop}",
+          "type": "fontSizes"
+        },
+        "h1": {
+          "value": "{semantic.fontSizes.desktop.h2} * {core.fontSizes.ratio-desktop}",
+          "type": "fontSizes"
+        }
+      },
+      "mobile": {
+        "body-xs": {
+          "value": "{core.fontSizes.base-mobile} * 0.65",
+          "type": "fontSizes"
+        },
+        "body-sm": {
+          "value": "{core.fontSizes.base-mobile} * 0.85",
+          "type": "fontSizes"
+        },
+        "body": {
+          "value": "{core.fontSizes.base-mobile}",
+          "type": "fontSizes"
+        },
+        "h6": {
+          "value": "{semantic.fontSizes.mobile.body} * {core.fontSizes.ratio-mobile}",
+          "type": "fontSizes"
+        },
+        "h5": {
+          "value": "{semantic.fontSizes.mobile.h6} * {core.fontSizes.ratio-mobile}",
+          "type": "fontSizes"
+        },
+        "h4": {
+          "value": "{semantic.fontSizes.mobile.h5} * {core.fontSizes.ratio-mobile}",
+          "type": "fontSizes"
+        },
+        "h3": {
+          "value": "{semantic.fontSizes.mobile.h4} * {core.fontSizes.ratio-mobile}",
+          "type": "fontSizes"
+        },
+        "h2": {
+          "value": "{semantic.fontSizes.mobile.h3} * {core.fontSizes.ratio-mobile}",
+          "type": "fontSizes"
+        },
+        "h1": {
+          "value": "{semantic.fontSizes.mobile.h2} * {core.fontSizes.ratio-mobile}",
+          "type": "fontSizes"
+        }
+      }
+    },
+    "typography": {
+      "desktop": {
+        "body-regular": {
+          "type": "typography",
+          "value": {
+            "fontFamily": "{semantic.fontFamilies.primary}",
+            "fontSize": "{semantic.fontSizes.desktop.body}",
+            "fontWeight": "{core.fontWeights.400}",
+            "lineHeight": "{core.lineHeights.140}"
+          }
+        },
+        "body-bold": {
+          "type": "typography",
+          "value": {
+            "fontFamily": "{semantic.fontFamilies.primary}",
+            "fontSize": "{semantic.fontSizes.desktop.body}",
+            "fontWeight": "{core.fontWeights.700}",
+            "lineHeight": "{core.lineHeights.140}"
+          }
+        },
+        "h1-bold": {
+          "type": "typography",
+          "value": {
+            "fontFamily": "{semantic.fontFamilies.primary}",
+            "fontSize": "{semantic.fontSizes.desktop.h1}",
+            "fontWeight": "{core.fontWeights.700}",
+            "lineHeight": "{core.lineHeights.110}"
+          }
+        },
+        "h1-regular": {
+          "type": "typography",
+          "value": {
+            "fontFamily": "{semantic.fontFamilies.primary}",
+            "fontSize": "{semantic.fontSizes.desktop.h1}",
+            "fontWeight": "{core.fontWeights.400}",
+            "lineHeight": "{core.lineHeights.110}"
+          }
+        },
+        "h3-bold": {
+          "type": "typography",
+          "value": {
+            "fontFamily": "{semantic.fontFamilies.primary}",
+            "fontSize": "{semantic.fontSizes.desktop.h3}",
+            "fontWeight": "{core.fontWeights.700}",
+            "lineHeight": "{core.lineHeights.110}"
+          }
+        }
+      },
+      "mobile": {
+        "body-regular": {
+          "type": "typography",
+          "value": {
+            "fontFamily": "{semantic.fontFamilies.primary}",
+            "fontSize": "{semantic.fontSizes.mobile.body}",
+            "fontWeight": "{core.fontWeights.400}",
+            "lineHeight": "{core.lineHeights.140}"
+          }
+        },
+        "body-bold": {
+          "type": "typography",
+          "value": {
+            "fontFamily": "{semantic.fontFamilies.primary}",
+            "fontSize": "{semantic.fontSizes.mobile.body}",
+            "fontWeight": "{core.fontWeights.700}",
+            "lineHeight": "{core.lineHeights.140}"
+          }
+        },
+        "h1-bold": {
+          "type": "typography",
+          "value": {
+            "fontFamily": "{semantic.fontFamilies.primary}",
+            "fontSize": "{semantic.fontSizes.mobile.h1}",
+            "fontWeight": "{core.fontWeights.700}",
+            "lineHeight": "{core.lineHeights.110}"
+          }
+        },
+        "h1-regular": {
+          "type": "typography",
+          "value": {
+            "fontFamily": "{semantic.fontFamilies.primary}",
+            "fontSize": "{semantic.fontSizes.mobile.h1}",
+            "fontWeight": "{core.fontWeights.400}",
+            "lineHeight": "{core.lineHeights.110}"
+          }
+        },
+        "h3-bold": {
+          "type": "typography",
+          "value": {
+            "fontFamily": "{semantic.fontFamilies.primary}",
+            "fontSize": "{semantic.fontSizes.mobile.h3}",
+            "fontWeight": "{core.fontWeights.700}",
+            "lineHeight": "{core.lineHeights.110}"
+          }
+        }
+      }
+    }
+  }
+}

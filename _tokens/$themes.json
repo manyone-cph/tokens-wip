@@ -1,0 +1,36 @@
+[
+  {
+    "id": "05cdce6bc5578825357830d09dd3fa57a9127933",
+    "name": "none",
+    "selectedTokenSets": {
+      "shared/core": "enabled",
+      "shared/semantic": "enabled",
+      "shared/composition/molecules": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "582a278c3724768552893fe5f38ec9af879709ad",
+    "name": "b",
+    "selectedTokenSets": {
+      "shared/core": "enabled",
+      "shared/semantic": "enabled",
+      "theme/b/semantic": "enabled",
+      "theme/b/component": "enabled",
+      "shared/composition/molecules": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "216f6810dc0e44cdf1c148831bc028f97860bee0",
+    "name": "a",
+    "selectedTokenSets": {
+      "shared/core": "enabled",
+      "shared/semantic": "enabled",
+      "theme/a/semantic": "enabled",
+      "theme/a/component": "enabled",
+      "shared/composition/molecules": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  }
+]

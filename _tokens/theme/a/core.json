@@ -1,0 +1,12 @@
+{
+  "core": {
+    "color": {
+      "theme-a-red": {
+        "500": {
+          "value": "#ff1919",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

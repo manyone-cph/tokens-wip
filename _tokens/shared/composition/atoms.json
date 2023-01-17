@@ -1,0 +1,12 @@
+{
+  "composition": {
+    "button": {
+      "value": {
+        "spacing": "20",
+        "fill": "{core.color.black.100}",
+        "fontFamilies": "{semantic.fontFamilies.primary}"
+      },
+      "type": "composition"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "component": {
+    "color": {
+      "page": {
+        "primary": {
+          "value": "{core.color.white.100}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

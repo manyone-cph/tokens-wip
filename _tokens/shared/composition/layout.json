@@ -1,0 +1,19 @@
+{
+  "composition": {
+    "page": {
+      "value": {
+        "width": "1920",
+        "spacing": "200",
+        "itemSpacing": "50",
+        "fill": "{component.color.page.primary}"
+      },
+      "type": "composition"
+    },
+    "section": {
+      "value": {
+        "spacing": "100"
+      },
+      "type": "composition"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "semantic": {
+    "color": {
+      "action": {
+        "primary": {
+          "value": "{core.color.cobber.100}",
+          "type": "color"
+        }
+      },
+      "txt": {
+        "primary": {
+          "value": "{core.color.cobber.100}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{core.color.cobber.300}",
+          "type": "color"
+        },
+        "inverted": {
+          "value": "{core.color.black.100}",
+          "type": "color"
+        }
+      },
+      "inactive": {
+        "primary": {
+          "value": "{core.color.grey.300}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

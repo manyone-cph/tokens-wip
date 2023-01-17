@@ -1,0 +1,38 @@
+{
+  "semantic": {
+    "fontFamilies": {
+      "primary": {
+        "value": "{core.fontFamilies.sans-serif-1}",
+        "type": "fontFamilies"
+      }
+    },
+    "color": {
+      "action": {
+        "primary": {
+          "value": "{core.color.black.100}",
+          "type": "color"
+        }
+      },
+      "txt": {
+        "primary": {
+          "value": "{core.color.black.100}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{core.color.grey.300}",
+          "type": "color"
+        },
+        "inverted": {
+          "value": "{core.color.white.100}",
+          "type": "color"
+        }
+      },
+      "inactive": {
+        "primary": {
+          "value": "{core.color.grey.300}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

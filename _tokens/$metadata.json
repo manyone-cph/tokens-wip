@@ -1,0 +1,16 @@
+{
+  "tokenSetOrder": [
+    "shared/core",
+    "shared/semantic",
+    "shared/component",
+    "shared/composition/atoms",
+    "shared/composition/molecules",
+    "shared/composition/organisms",
+    "shared/composition/layout",
+    "theme/a/core",
+    "theme/a/semantic",
+    "theme/a/component",
+    "theme/b/semantic",
+    "theme/b/component"
+  ]
+}
